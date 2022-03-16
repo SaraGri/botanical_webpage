@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Botanic Garden</title>
+  <meta charset="utf-8">
+  <!--==================== ensure proper rendering and touch zooming ====================-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/solid.min.css">
+ 
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+	
+	<!--==================== NAVIGATION ====================-->
+	<header>
+		<nav class="navbar fixed-top navbar-expand-sm navbar-light">
+			<!-- Brand/logo -->
+				<a class="navbar-brand margin-brand" href="#">
+					<img src="img/logo.png" alt="logo" style="width:70px;">
+				</a>
+  
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
+			</button>
+			
+			 <!-- Navbar links -->
+			<div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+				<ul class="navbar-nav">
+					<li class="nav-item pl-3 pr-3">
+						<a class="nav-link" href="#home">HOME</a>
+					</li>
+					<li class="nav-item pl-3 pr-3">
+						<a class="nav-link" href="#about">ABOUT US</a>
+					</li>
+					<li class="nav-item pl-3 pr-3">
+						<a class="nav-link" href="#plants">PLANTS</a>
+					</li>
+					<li class="nav-item pl-3 pr-3">
+						<a class="nav-link" href="#services">SERVICES</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<!--==================== MAIN IMAGE ====================-->
+		<img src="img/landingpic.jpg" alt="image of a room with plants" class="main_img">
+	
+		<div class="container-fluid">
+			 <div class="row">
+				 <div class="col-sm-12 content">
+					<!--==================== HOME ====================-->
+					<section class="home" id="home">
+						<div class="spacing-small">
+						</div>
+						<div class="container text-center pt-5 pb-5 home-background mb-3">
+							<div class="container_margin">	
+							</div>
+							<h1>
+								Dolor sit amet consetetur 
+							</h1>
+							
+							<h2>
+								tempor invidunt ut labore et dolore
+							</h2>
+							
+							<div class="divider divider_center">
+								<hr class="rounded">
+							</div>
+							
+							<p class="pt-3 pb-3">
+								Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+							</p>
+							
+							<button type="button" class="btn btn-primary">LEARM MORE</button>
+						</div>
+					</section>
+					
+					<section class="about" id="about">
+						<div class="spacing">	
+						</div>
+						<div class="container container_margin mt-5">
+							<div class="row about_imagebox">
+								<div class="col-sm-12">
+									<img src="img/plant.png" alt="image of green leafs" class="about_img">
+								</div>
+							</div>
+							
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-11">
+										<div class="p-4 about_textbox">
+											<h2 class="pl-3 pb-3">
+												Lorem ipsum dolor sit amet consetetur sadipscing
+											</h2>
+									
+											<div class="divider pl-3 pb-3">
+												<hr class="rounded">
+											</div>
+										
+											<div class="container">
+												<div class="row">
+												<div class="col-sm-6">
+													<p class="about_text">
+														sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. 
+														Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, 
+														sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. 
+														At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet
+													</p>
+												</div>
+													<div class="col-sm-6">
+														<p class="text-center">
+															CONTACT US
+														</p>
+														<p class="text-center">
+															&nbsp; &nbsp; <i class="fa-solid fa-phone"></i>
+															+999 999 999 000
+														</p>
+														<p class="text-center">
+															&nbsp; &nbsp; <i class="fa-solid fa-at"></i>
+															info@plants.com
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div >
+									<div class="col-sm-1 img_greenplant">
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+					
+					<section class="plants" id="plants">
+
+						<div id="demo" class="container carousel slide slider-background" data-ride="carousel">
+						
+						<!-- slideshow -->
+							<div class="carousel-inner m-0">
+								<div class="carousel-item active">
+									<img src="img/slide1.jpg" alt="" class="slide_img">
+								</div>
+								<div class="carousel-item">
+									<img src="img/slide2.jpg" alt="" class="slide_img">
+								</div>
+								<div class="carousel-item">
+									<img src="img/slide3.jpg" alt="" class="slide_img">
+								</div>
+							</div>
+
+						<!-- Left and right controls -->
+							<a class="carousel-control-prev" href="#demo" data-slide="prev">
+								<span class="carousel-control-prev-icon"></span>
+							</a>
+							<a class="carousel-control-next" href="#demo" data-slide="next">
+								<span class="carousel-control-next-icon"></span>
+							</a>
+						</div>
+					</section>
+					
+					<section class="services" id="services">
+						<div class="spacing-small mt-3">	
+						</div>
+						<div class="container container_margin pb-5">
+							 <div class="row services-background">
+								<div class="col-md services_imagebox">
+									<img src="img/orchid.jpg" alt="image of an orange colored orchid" class="service_img">
+								</div>
+								<div class="col-md pt-5">
+									<p>
+										Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut 
+										labore et dolore magna aliquyam erat, sed diam voluptua. 
+										At vero eos et accusam et justo. 
+									</p>
+								</div>
+								<div class="col-md pt-5">
+									<p>
+										Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+										Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor 
+										invidunt ut labore, sed diam voluptua.
+									</p>
+									
+									<p>
+										sanctus est Lorem
+									</p>
+								</div>
+							</div> 
+						</div>
+					</section>
+			 </div>
+		</div>
+	</main>
+	
+	  <!-- Site footer -->
+    <footer class="site-footer mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-md-6">
+				<h6>
+					Imprint
+				</h6>
+				<p class="text-justify">
+					<br/>
+					Lorem ipsum dolor sit
+					<br/>
+					amet, consetetur sadipscing elitr
+					<br/>
+					sed diam nonumy
+				</p>
+          </div>
+        </div>
+        <hr>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">
+				Copyright &copy; 2020 
+            </p>
+          </div>
+
+          <div class="col-md-4 col-sm-6 col-xs-12">
+            <ul class="social-icons">
+              <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+        </div>
+      </div>
+	</footer>
+</body>
+</html>
